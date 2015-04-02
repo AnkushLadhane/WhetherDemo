@@ -7,7 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreLocation/CoreLocation.h>
 
 @interface ViewController : UIViewController
+{
+    NSMutableArray *PredictAddressarray;
+    NSMutableArray *PredictReferencearray;
+    NSString *strForCurLatitude,*strForCurLongitude;
 
+}
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
+
+@property (weak, nonatomic) IBOutlet UITextField *searchTxtField;
+
+@property (weak, nonatomic) IBOutlet UIButton *displayWhetherBtn;
+- (IBAction)whetherBtnClicked:(id)sender;
 @end

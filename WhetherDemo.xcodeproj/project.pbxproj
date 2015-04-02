@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		200A155E1ACD0F86004BF084 /* whetherController.m in Sources */ = {isa = PBXBuildFile; fileRef = 200A155D1ACD0F86004BF084 /* whetherController.m */; };
+		200A15611ACD2510004BF084 /* whetherControllerksCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 200A15601ACD2510004BF084 /* whetherControllerksCustomCell.m */; };
 		20BA68911ACCFD0200806DDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20BA68901ACCFD0200806DDA /* Foundation.framework */; };
 		20BA68931ACCFD0200806DDA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20BA68921ACCFD0200806DDA /* CoreGraphics.framework */; };
 		20BA68951ACCFD0200806DDA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20BA68941ACCFD0200806DDA /* UIKit.framework */; };
@@ -35,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		200A155C1ACD0F86004BF084 /* whetherController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = whetherController.h; sourceTree = "<group>"; };
+		200A155D1ACD0F86004BF084 /* whetherController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = whetherController.m; sourceTree = "<group>"; };
+		200A155F1ACD2510004BF084 /* whetherControllerCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = whetherControllerCustomCell.h; sourceTree = "<group>"; };
+		200A15601ACD2510004BF084 /* whetherControllerksCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = whetherControllerksCustomCell.m; sourceTree = "<group>"; };
 		20BA688D1ACCFD0200806DDA /* WhetherDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhetherDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20BA68901ACCFD0200806DDA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		20BA68921ACCFD0200806DDA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -120,6 +126,10 @@
 				20BA68A51ACCFD0200806DDA /* Main_iPad.storyboard */,
 				20BA68A81ACCFD0200806DDA /* ViewController.h */,
 				20BA68A91ACCFD0200806DDA /* ViewController.m */,
+				200A155F1ACD2510004BF084 /* whetherControllerCustomCell.h */,
+				200A15601ACD2510004BF084 /* whetherControllerksCustomCell.m */,
+				200A155C1ACD0F86004BF084 /* whetherController.h */,
+				200A155D1ACD0F86004BF084 /* whetherController.m */,
 				20BA68AB1ACCFD0200806DDA /* Images.xcassets */,
 				20BA68971ACCFD0200806DDA /* Supporting Files */,
 			);
@@ -254,6 +264,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				20BA68AA1ACCFD0200806DDA /* ViewController.m in Sources */,
+				200A15611ACD2510004BF084 /* whetherControllerksCustomCell.m in Sources */,
+				200A155E1ACD0F86004BF084 /* whetherController.m in Sources */,
 				20BA68A11ACCFD0200806DDA /* AppDelegate.m in Sources */,
 				20BA689D1ACCFD0200806DDA /* main.m in Sources */,
 			);
@@ -474,6 +486,7 @@
 				20BA68C41ACCFD0200806DDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		20BA68C51ACCFD0200806DDA /* Build configuration list for PBXNativeTarget "WhetherDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +495,7 @@
 				20BA68C71ACCFD0200806DDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
